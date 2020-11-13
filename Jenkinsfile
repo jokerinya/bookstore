@@ -17,6 +17,11 @@ pipeline {
                 sh 'docker push "$ECR_REGISTRY/$APP_REPO_NAME:latest"'
             }
         }
+        stage('Run Jokerinya run') {
+            steps {
+                sh 'docker-compose up'
+            }
+        }
     }
     post {
         always {
