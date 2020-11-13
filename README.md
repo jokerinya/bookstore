@@ -6,3 +6,4 @@ docker-compose services are:
 * Flask
 * Dockers
 * Docker-compose
+* AWS
