@@ -4,3 +4,5 @@ This is a sample CRUD operating flask application. With Cloudformation it works 
 docker-compose services are:
 * Mysql
 * Flask
+* Dockers
+* Docker-compose
