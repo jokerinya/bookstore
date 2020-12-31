@@ -10,6 +10,8 @@ app = Flask(__name__)
 # Configure mysql database
 # app.config['MYSQL_DATABASE_HOST'] = db_endpoint.readline().strip()
 app.config['MYSQL_DATABASE_HOST'] = 'database'
+# For local development purposes host.docker.internal can be used
+# app.config['MYSQL_DATABASE_HOST'] = 'host.docker.internal'
 app.config['MYSQL_DATABASE_USER'] = 'jokerinya'
 # app.config['MYSQL_DATABASE_PASSWORD'] = db_password.readline().strip()
 app.config['MYSQL_DATABASE_PASSWORD'] = "Ankara06"
